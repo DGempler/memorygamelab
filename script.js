@@ -52,7 +52,7 @@
 
 
   function scoreTally() {
-    score.innerHTML = 'current score is ' + results.length / 2;
+    score.innerHTML = 'Your current score is ' + results.length / 2;
 
     if (results.length == 16) {
       alert('YOU WON!');
@@ -130,7 +130,7 @@
   }
   })();
   div = document.querySelectorAll('div');
-
+  scoreTally();
 
 })();
 

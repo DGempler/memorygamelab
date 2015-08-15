@@ -20,3 +20,12 @@ button {
   border: white 3px solid;
   background-color: RGBA(171, 84, 50, 1);
 }
+
+#score {
+  margin: 15px;
+  font-size: 1.5em;
+}
+
+h1 {
+  margin: 15px;
+}
